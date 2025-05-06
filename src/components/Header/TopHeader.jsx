@@ -26,8 +26,8 @@ const TopHeader = () => {
           <div className="flex items-center gap-2">
             <MapPin size={18} className="text-spice-600" />
             <div>
-              <div className="text-sm text-spice-900"><b>Registered office:</b> 401, 4th floor, Archway building sopanbaug road, Balewadi, Pune-411045, India</div>
-              <div className="text-sm text-spice-900"><b>Corporate office:</b> Bhatshirgaon, Taluka-Shirala, District-Sangali, 415408, Maharashtra, India</div>
+              <div className="text-sm text-spice-900"><b>Corporate office:</b> 401, 4th floor, Archway building sopanbaug road, Balewadi, Pune-411045, India</div>
+              <div className="text-sm text-spice-900"><b>Registered office:</b> Bhatshirgaon, Taluka-Shirala, District-Sangali, 415408, Maharashtra, India</div>
               {/* <div className="text-xs text-spice-600">Location</div> */}
             </div>
           </div>

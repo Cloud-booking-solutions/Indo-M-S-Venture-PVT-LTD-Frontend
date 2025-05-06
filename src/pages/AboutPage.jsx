@@ -8,13 +8,13 @@ const owners = [
     name: "Sanjay Gurav",
     position: "Director",
     image: Sanjay,
-    bio: "Sanjay Gurav founded Indo M & S Venture PVT. LTD in 2021 with a vision to bring authentic Indian spices to global markets. With over 25 years of experience in the spice industry, Sanjay Gurav has established the company as a trusted name in quality spice exports and imports."
+    bio: "Sanjay Gurav founded Indo M & S Venture PVT. LTD in 2021 with a vision to bring the rich heritage of Indian spices and agricultural products to global markets. Backed by over 25 years of experience in the spice industry, he has built strong relationships with farmers across India, ensuring consistent quality and authenticity. Under his leadership, the company has earned a reputation for excellence in sourcing and exporting premium spices, herbs, and farm-grown produce."
   },
   {
     name: "Mohammad Kheirollahi Vash",
     position: "Director",
     image: Mohammad,
-    bio: "Mohammad joined Indo M & S Venture PVT. LTD as a co-founder in 2021. With his expertise in supply chain management and international trade regulations, she has been instrumental in expanding the company's global presence and ensuring operational excellence."
+    bio: "Mohammad joined Indo M & S Venture PVT. LTD as a co-founder in 2021, bringing with him valuable expertise in supply chain management and international trade regulations. His strategic approach to logistics and compliance has played a key role in streamlining the company’s operations and export capabilities. By optimizing supply chains, Mohammad has been instrumental in expanding the company’s international footprint and ensuring smooth, efficient delivery of high-quality Indian spices and agricultural products to clients around the world."
   }
 ];
 

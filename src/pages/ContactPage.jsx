@@ -78,8 +78,8 @@ const ContactPage = () => {
   <div className="space-y-4">
     <div>
       <h3 className="text-lg font-semibold">Address</h3>
-      <div><b>Registered office:</b> 401, 4th floor, Archway building sopanbaug road, Balewadi, Pune-411045, India</div>
-      <div><b>Corporate office:</b> Bhatshirgaon, Taluka-Shirala, District-Sangali, 415408, Maharashtra, India</div>
+      <div><b>Corporate office:</b> 401, 4th floor, Archway building sopanbaug road, Balewadi, Pune-411045, India</div>
+      <div><b>Registered office:</b> Bhatshirgaon, Taluka-Shirala, District-Sangali, 415408, Maharashtra, India</div>
     </div>
     <div>
       <h3 className="text-lg font-semibold">Email</h3>

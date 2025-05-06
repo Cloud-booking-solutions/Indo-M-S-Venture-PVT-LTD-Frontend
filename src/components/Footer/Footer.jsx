@@ -24,8 +24,8 @@ const Footer = () => {
               </div>
               <div className="flex items-center">
                 <MapPin size={80} className="mr-2 text-spice-300" />
-                <span><b>Registered office:</b> 401, 4th floor, Archway building sopanbaug road, Balewadi, Pune-411045, India</span>
-                <span><b>Corporate office:</b> Bhatshirgaon, Taluka-Shirala, District-Sangali, 415408, Maharashtra, India</span>
+                <span><b>Corporate office:</b> 401, 4th floor, Archway building sopanbaug road, Balewadi, Pune-411045, India</span>
+                <span><b>Registered office:</b> Bhatshirgaon, Taluka-Shirala, District-Sangali, 415408, Maharashtra, India</span>
               </div>
             </div>
           </div>
