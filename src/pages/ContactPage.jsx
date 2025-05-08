@@ -9,11 +9,23 @@ import Sanjay from "../assets/sanjay-contact.png";
 import Mohammad from "../assets/mohammad-contact.png";
 
 // Validation schema using Yup
+// Validation schema using Yup
 const schema = yup.object().shape({
-  name: yup.string().min(3, "Name must be at least 3 characters").required("Name is required"),
-  email: yup.string().email("Invalid email format").required("Email is required"),
-  message: yup.string().min(10, "Message must be at least 10 characters").required("Message is required"),
+  name: yup
+    .string()
+    .matches(/^[A-Za-z\s]+$/, "Name should contain only alphabets")
+    .min(3, "Name must be at least 3 characters")
+    .required("Name is required"),
+  email: yup
+    .string()
+    .email("Invalid email format")
+    .required("Email is required"),
+  message: yup
+    .string()
+    .min(10, "Message must be at least 10 characters")
+    .required("Message is required"),
 });
+
 
 const ContactPage = () => {
   const {
