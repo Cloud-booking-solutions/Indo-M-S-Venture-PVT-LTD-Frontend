@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 import { useState } from "react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
@@ -238,27 +238,27 @@ const ExportsPage = () => {
 
       {/* Call to Action */}
       <section className="bg-spice-600 text-white py-16">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to Start Trading?</h2>
-          <p className="text-xl mb-8 max-w-2xl mx-auto">
-            Whether you're looking to import our premium spices or export your products, our team is ready to assist you.
-          </p>
-          <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <a
-              href="/contact"
-              className="px-6 py-3 bg-white text-spice-600 rounded-md font-medium hover:bg-gray-100 transition-colors"
-            >
-              Contact Us
-            </a>
-            <a
-              href="/products"
-              className="px-6 py-3 bg-transparent border-2 border-white text-white rounded-md font-medium hover:bg-white/10 transition-colors"
-            >
-              Browse Products
-            </a>
-          </div>
-        </div>
-      </section>
+  <div className="container mx-auto px-4 text-center">
+    <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to Start Trading?</h2>
+    <p className="text-xl mb-8 max-w-2xl mx-auto">
+      Whether you're looking to import our premium spices or export your products, our team is ready to assist you.
+    </p>
+    <div className="flex flex-col sm:flex-row justify-center gap-4">
+      <Link 
+        to="/contact" 
+        className="px-6 py-3 bg-white text-spice-600 rounded-md font-medium hover:bg-gray-100 transition-colors"
+      >
+        Contact Us
+      </Link>
+      <Link 
+        to="/products" 
+        className="px-6 py-3 bg-transparent border-2 border-white text-white rounded-md font-medium hover:bg-white/10 transition-colors"
+      >
+        Browse Products
+      </Link>
+    </div>
+  </div>
+</section>
     </div>
   );
 };
